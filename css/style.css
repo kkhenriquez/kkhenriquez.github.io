@@ -27,13 +27,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
-  background-size: cover;
+  background-color: #333;
 }
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -56,7 +54,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 
@@ -86,13 +84,14 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: rgba(170,240,209,.25);
-  }
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #fff;
-  border-bottom-color: #aaf0d1;
+  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +109,7 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  padding: 210px 20px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -137,6 +136,7 @@ body {
   .masthead {
     position: fixed;
     top: 0;
+    background: rgba(0,0,0,.25);
   }
   .mastfoot {
     position: fixed;
@@ -158,6 +158,20 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 100%;
   }
+}
+
+.fondo{
+  background: url("../img/fondo.jpg") 50%  no-repeat fixed;
+}
+
+.about{
+  background: #fff;
+  color: #000;
+  padding-top: 35px;
+}
+
+.proyectos{
+  background: #ccc;
 }
