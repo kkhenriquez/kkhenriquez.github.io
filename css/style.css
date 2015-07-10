@@ -137,6 +137,7 @@ body {
     position: fixed;
     top: 0;
     background: rgba(0,0,0,.25);
+    color: #fff;
   }
   .mastfoot {
     position: fixed;
@@ -163,7 +164,7 @@ body {
 }
 
 .fondo{
-  background: url("../img/fondo.jpg") 50%  no-repeat fixed;
+  background: url("../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg") 50%  no-repeat fixed;
 }
 
 .about{
