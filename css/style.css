@@ -54,7 +54,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 15px 30px;
+  padding: 15px 90px;
 }
 
 
@@ -175,4 +175,8 @@ body {
 
 .proyectos{
   background: #ccc;
+  padding-top: 35px;
 }
+
+.contacto{
+  padding-top: 35px;
