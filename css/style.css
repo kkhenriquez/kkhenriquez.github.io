@@ -140,7 +140,6 @@ body {
     color: #fff;
   }
   .mastfoot {
-    position: fixed;
     bottom: 0;
   }
   /* Start the vertical centering */
@@ -168,10 +167,12 @@ body {
 }
 
 .about{
-  background: #fff;
-  color: #000;
+  background: #f8f8f8;
+  color: #333;
   padding-top: 35px;
 }
+
+
 
 .proyectos{
   background: #ccc;
@@ -180,3 +181,11 @@ body {
 
 .contacto{
   padding-top: 35px;
+  background:  #ccc;
+}
+.magenta{
+  color: #ff00a7;
+}
+p{
+  line-height: 4;
+}
