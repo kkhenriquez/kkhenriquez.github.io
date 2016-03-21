@@ -194,3 +194,16 @@ textarea {
 .magenta{
   color: #ff00a7;
   padding: 0px 1px;}
+
+
+#your-circle{
+  width: 30px;
+  height: 30px;
+}
+
+.skill {
+  height: 6em;
+  width: 6em;
+  border: 5px solid gray;
+  border-radius: 50%;
+}
