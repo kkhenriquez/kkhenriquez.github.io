@@ -229,3 +229,11 @@ td{
   color: rgb(65, 196, 138);
   text-decoration: none;
 }*/
+
+h1 {
+  line-height: 20px;
+}
+
+.lg {
+  font-size: 3em;
+}
