@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Varela);
+
 body {
-    font: 400 15px/1.8 Lato, sans-serif;
+    font: 400 15px/1.8 'Arimo', sans-serif;
     color: #777;
   }
 h3 {
@@ -15,29 +17,9 @@ h3 small{
 .container {
     padding: 80px 90px;
 }
-.person {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.7;
-}
-.person:hover {
-    border-color: #f1f1f1;
-}
-.carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-}
-.carousel-caption h3 {
-    color: #fff !important;
-}
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
+.container-fluid{
+  padding-top: 5px;
+  padding-bottom: 5px
 }
 .bg-1 {
     background: #2d2d30;
@@ -47,84 +29,55 @@ h3 small{
 .bg-1 h4{
   color: #fff;;
 }
-.thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-.thumbnail p {
-    margin-top: 15px;
-    color: #555;
-}
 .btn {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #2d2d30;
     color: #f1f1f1;
-    border: 1px solid #333;
+    border: 2px solid #2d2d30;
     border-radius: 20px;
     transition: .2s;
 }
 .btn:hover, .btn:focus {
-    border: 1px solid #fff;
-    background-color: #fff;
-    color: #333;
+    border: 2px solid #2d2d30;
+    background-color: #f1f1f1;
+    color: #2d2d30;
 }
-
-.modal-header, .modal-body {
-    padding: 40px 50px;
-}
-.nav-tabs li a {
-    color: #777;
-}
-#googleMap {
-    width: 100%;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}  
 .navbar {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Varela', sans-serif;
     margin-bottom: 0;
-    background-color: #2d2d30;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity: 0.9;
 }
-.navbar-color {
-  background-color: rgba(230, 106, 61, 0.7);
-  transition: 0.7s;
+.navbar-default.affix-top{
+  background-color: transparent;
+  transition: 0.9s;
+}
+.navbar-default.affix {
+  background-color: rgba(255, 139, 0, 1);
+  transition: 0.9s;
 }
 .navbar li a, .navbar .navbar-brand { 
-    color: rgb(229, 229, 229) !important;
-    border-bottom: 2px solid transparent;
+    color: #f5f5f5 !important;
+    border-left: 2px solid transparent;
 }
 .navbar-nav li a:hover {
     color: #fff !important;
-    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
-    border-bottom: 2px solid #fff;
+    color: #2d2d30 !important;
+    background-color: transparent !important;
+    border-left: 2px solid #2b2b30;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
-.open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
-}
-.dropdown-menu li a {
-    color: #000 !important;
-}
-.dropdown-menu li a:hover {
-    background-color: red !important;
-}
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
-    padding: 16px 32px 5px;
+    padding: 24px 32px 24px;
 }
 footer a {
     color: #f5f5f5;
@@ -132,12 +85,6 @@ footer a {
 footer a:hover {
     color: #777;
     text-decoration: none;
-}  
-.form-control {
-    border-radius: 0;
-}
-textarea {
-    resize: none;
 }
 #lead{
   background: url(../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg) no-repeat fixed;
@@ -147,27 +94,45 @@ textarea {
   padding-bottom: 80px;
   color: #fafafa;
 }
+#contact a{
+  color: #777;
+  text-decoration: none;
+}
+#contact a:hover,
+#contact a:active{
+  color: #2d2d30;
+  text-decoration: none;
+}
+#contact p{
+  color: #777;
+}
 .facebook{
   background: url(../img/iconF.png) no-repeat;
+  background-size: cover;
 }
 .facebook:hover{
   background: url(../img/iconFblue.png) no-repeat;
+  background-size: cover;
 }
 .twitter{
   background: url(../img/iconT.png) no-repeat;
+  background-size: cover;
 }
 .twitter:hover{
   background: url(../img/iconTblue.png) no-repeat;
+  background-size: cover;
 }
 .behance{
   background: url(../img/iconB.png) no-repeat;
+  background-size: cover;
 }
 .behance:hover{
   background: url(../img/iconBblue.png) no-repeat;
+  background-size: cover;
 }
 .social{
-  min-height: 64px;
-  min-width: 64px;
+  min-height: 60px;
+  min-width: 60px;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -176,7 +141,7 @@ textarea {
 }
 .navbar-brand{
   position: relative;
-  top: -5px;
+  top: -7px;
 }
 .navbar-brand:hover{
   opacity: 0.6;
@@ -187,13 +152,18 @@ textarea {
 }
 
 .wrapper-center{
+  width: 240px;
+  margin: auto;
+  padding-top: 7.5%;
 }
 /*.brand-color {color: #ed561f;}*/
-.brand-color {color: #ff8b00;}
+.brand-color {color: rgb(255, 139, 0);}
 .naranja{color: #ff8b00;}
 .magenta{
   color: #ff00a7;
   padding: 0px 1px;}
+
+.list{padding-right: 2px}
 
 
 #your-circle{
@@ -206,4 +176,10 @@ textarea {
   width: 6em;
   border: 5px solid gray;
   border-radius: 50%;
+}
+
+.wrap {
+  float: none;
+  margin-right: auto;
+  margin-left: auto
 }

@@ -3,21 +3,21 @@
 <head>
   <title>Kevin Henriquez.</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Agregar mobile cuando el diseño esté completo-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="css/main.css" rel="stylesheet" type="text/css"/>
+  
   <link href="css/jquery.circliful.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/jquery.circliful.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="55">
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -31,7 +31,6 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#experience">WORK</a></li>
         <li><a href="#contact">CONTACT</a></li>
@@ -40,21 +39,22 @@
   </div>
 </nav>
 
-<div id="lead">
+<section id="lead">
   <div class="container">
     <h1 class="cover-heading">Hi, I'm Kevin.</h1>
-      <p class="lead">Web Designer and Frontend Developer.<br>I like to transmit emotions and messages through simple yet elegant designs.</p><br>
+      <p class="lead">Frontend Developer and Web Designer.<br>I like to transmit emotions and messages through simple yet elegant designs.</p><br>
       <p class="lead text-center">
         <a href="#about" class="btn btn-lg btn-default">Know more about me</a>
       </p>
   </div>
-</div>
+</section>
 
 <!-- Container (The About Section) -->
-<div id="about" class="bg-1">
+<section id="about" class="bg-1">
 <div class="container">
   <h3>ABOUT ME</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>I'm outgoing and I like to travel to know the world and experience different cultures. I'm relaxed but attentive to details and can be very focused when the situation needs it. I love to work with other people and to know their opinions and what they're thinking. Learning is my passion so I'm always reading to learn new things, and I'm very interested when I hear people talk about a topic I don't know about, no matter what it is! I'm a open minded individual and I know that each person can look a situation from a different perspective.</p>
+  <p>And now you know a little more about me!</p>
   <br>
   <div class="row text-center">
     <div class="col-sm-4">
@@ -75,51 +75,59 @@
   </div>
 </div>
   <hr>
-</div>
+</section>
 
 <!-- Container (Experience Section) -->
-<div id="experience" class="bg-1">
+<section id="experience" class="bg-1">
   <div class="container">
-    <h3>EXPERIENCE AND SKILLS</h3>
-    <p>En este párrafo hablamos un poco sobre la experiencia y damos un brief sobre las habilidades para luego pasar a las imágenes.</p>
+    <h3>SKILLS</h3>
     
-    <div class="row text-center slideanim slide">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://placekitten.it/g/400/300" alt="Paris" width="400" height="300">
-          <p><strong>Paris</strong></p>
-          <p>Friday 27 November 2015</p>
+    <div class="row text-center">
+      <div class="col-sm-9 wrap">
+        
+        <div class="col-sm-4">
+          <div id="html">
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
-          <p><strong>New York</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button id="circle" class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        <div class="col-sm-4">
+          <div id="css">
+          </div>
         </div>
+        <div class="col-sm-4">
+          <div id="js">
+          </div>
+        </div>
+        
       </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-9 wrap">
+        <div class="col-sm-4">
+          <div id="ps">
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id="ai">
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id="circle6">
+          </div>
         </div>
       </div>
     </div>
     
   </div>
-</div>
+</section>
 
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container">
+<section id="contact" class="container">
   <h3>STAY IN TOUCH. <small>I'd love to hear from you!</small></h3><br>
 
   <div class="row">
     
-    <div class="col-sm-6">
+    <div class="col-sm-6 col-xs-12 text-center">
       <div class="wrapper-center">
       <a href="https://www.facebook.com/kevin.henriquez1" target="_blank">
         <div class="facebook social"></div>
@@ -133,31 +141,16 @@
       </div>
       	
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 col-xs-12">
       <p>Also feel free to call or write, I'd be glad to respond!</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +58 4244942969</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:kevinkonrad93@gmail.com" target="_blank"> kevinkonrad93@gmail.com</a></p>	  
-      <p><span class="glyphicon glyphicon-map-marker"></span> Valencia, VE</p>
+      <p><span class="glyphicon glyphicon-phone list brand-color"></span> +58 4244942969</p>
+      <p><span class="glyphicon glyphicon-envelope list brand-color"></span> <a href="mailto:kevinkonrad93@gmail.com" target="_blank"> kevinkonrad93@gmail.com</a></p>	  
+      <p><span class="glyphicon glyphicon-map-marker list brand-color"></span> Valencia, VE</p>
     </div>
   </div>
   <br>
   
-</div>
-  <section class="container">
-
-    <h3>Circliful</h3>
-
-    <div class="row">
-      <div class="col-lg-2">
-        <div id="my-circle">
-        </div>
-      </div>
-    </div>
-
-
 </section>
-
-
 <!-- Footer -->
 <footer class="text-center">
   <p>&copy; 2016. Made with <span class="glyphicon glyphicon-heart magenta"></span> by <a href="#home">Kevin.</a></p>
@@ -178,66 +171,243 @@ $(document).ready(function(){
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
       scrollTop: $(hash).offset().top
-    }, 900, function(){
+    }, 1100, function(){
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
     });
   });
-  var circle = $('#my-circle');
+  
+  // Offset for Main Navigation
+  $('#mainNav').affix({
+    offset: {
+      top: 505
+    }
+  });
+  
+  var circle1 = $('#html');
+  var html = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 100,
+    text: 'HTML',
+    textSize: 24,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  var htmli = {
+    animation: 1,
+    animationStep: 10,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    percent: 0,
+    showPercent: 1,
+    text: 'HTML',
+    textSize: 0,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  circle1.circliful(htmli);
+  circle1.hover(
+    function(){
+      $('#html').find('.circliful').first().hide();
+      circle1.circliful(html).fadeOut(1).fadeIn(200);
+    },
+    function(){
+      $('#html').find('.circliful').remove();
+      circle1.circliful(htmli).fadeOut(1).fadeIn(200);
+    }
+  );
+  
+  var circle2 = $('#css');
+  var css = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 90,
+    text: 'CSS',
+    textSize: 24,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  var cssi = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 0,
+    text: 'CSS',
+    textSize: 0,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  circle2.circliful(cssi);
+  circle2.hover(
+    function(){
+      $('#css').find('.circliful').first().hide();
+      circle2.circliful(css).fadeOut(1).fadeIn();
+    },
+    function(){
+      $('#css').find('.circliful').remove();
+      circle2.circliful(cssi).fadeOut(1).fadeIn();
+    }
+  );
+  
+  var circle3 = $('#js');
+  var js = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 65,
+    text: 'JavaScript',
+    textSize: 24,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  var jsi = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 0,
+    text: 'JavaScript',
+    textSize: 0,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  circle3.circliful(jsi);
+  circle3.hover(
+    function(){
+      $('#js').find('.circliful').first().hide();
+      circle3.circliful(js).fadeOut(1).fadeIn();
+    },
+    function(){
+      $('#js').find('.circliful').remove();
+      circle3.circliful(jsi).fadeOut(1).fadeIn();
+    }
+  );
+  
+  var circle4 = $('#ps');
+  var ps = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 70,
+    text: 'Photoshop',
+    textSize: 24,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  var psi = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 0,
+    text: 'Photoshop',
+    textSize: 0,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  circle4.circliful(psi);
+  circle4.hover(
+    function(){
+      $('#ps').find('.circliful').first().hide();
+      circle4.circliful(ps).fadeOut(1).fadeIn();
+    },
+    function(){
+      $('#ps').find('.circliful').remove();
+      circle4.circliful(psi).fadeOut(1).fadeIn();
+    }
+  );
+  
+  var circle5 = $('#ai');
+  var ai = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 75,
+    text: 'Illustrator',
+    textSize: 24,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  var aii = {
+    animation: 1,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 0,
+    text: 'Illustrator',
+    textSize: 0,
+    textStyle: 'font-size: 16px;',
+    textColor: '#ff8b00',
+  };
+  circle5.circliful(aii);
+  circle5.hover(
+    function(){
+      $('#ai').find('.circliful').first().hide();
+      circle5.circliful(ai).fadeOut(1).fadeIn();
+    },
+    function(){
+      $('#ai').find('.circliful').remove();
+      circle5.circliful(aii).fadeOut(1).fadeIn();
+    }
+  );
+  
+  var circle6 = $('#circle6');
   var par = {
     animation: 1,
-    animationStep: 7,
-    foregroundBorderWidth: 15,
-    backgroundBorderWidth: 5,
-    percent: 75,
-    textSize: 28,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
+    percent: 80,
+    text: 'Git',
+    textSize: 24,
     textStyle: 'font-size: 16px;',
-    textColor: '#666',
-    text: 'HTML',
-    multiPercentage: 1,
-    percentages: [10, 20, 30]
+    textColor: '#ff8b00',
   };
   var inicial = {
     animation: 1,
-    animationStep: 7,
-    foregroundBorderWidth: 15,
-    backgroundBorderWidth: 5,
+    animationStep: 15,
+    foregroundBorderWidth: 7,
+    backgroundBorderWidth: 3,
+    foregroundColor: '#ff8b00',
     percent: 0,
-    showPercent: 1,
-    textSize: 28,
+    text: 'Git',
+    textSize: 0,
     textStyle: 'font-size: 16px;',
-    textColor: '#666',
-    text: 'HTML',
-    multiPercentage: 1,
-    percentages: [10, 20, 30]
+    textColor: '#ff8b00',
   };
-  circle.circliful(inicial);
-  circle.hover(
+  circle6.circliful(inicial);
+  circle6.hover(
     function(){
-      $('.circliful').first().hide();
-      circle.circliful(par).fadeOut(10).fadeIn();
+      $('#circle6').find('.circliful').first().hide();
+      circle6.circliful(par).fadeOut(1).fadeIn();
     },
     function(){
-      $('.circliful').remove();
-      circle.circliful(inicial).fadeOut(10).fadeIn(5);
+      $('#circle6').find('.circliful').remove();
+      circle6.circliful(inicial).fadeOut(1).fadeIn();
     }
   );
+  
 });
   
-  /*var scroll_start = 0;
-   var startchange = $('#about');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $('.navbar').toggleClass('navbar-color');
-       } else {
-          $('.navbar').toggleClass('navbar-color');
-       }
-   });*/
-  
-
-
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
