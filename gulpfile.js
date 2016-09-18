@@ -65,7 +65,7 @@ gulp.task('script', function() {
 	.pipe(gulp.dest('home/js'))
 });
 
-gulp.task('clean:dist', function() {
+gulp.task('clean:home', function() {
 	return del.sync('home');
 })
 
