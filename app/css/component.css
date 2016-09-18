@@ -3,9 +3,7 @@
 	overflow: hidden;
 }
 
-.cbp-so-section {
-	margin-bottom: 15em;
-}
+
 
 /* Clear floats of children */
 .cbp-so-section:before,
@@ -20,14 +18,15 @@
 
 /* Text styling */
 .cbp-so-section h2 {
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: 300;
 	line-height: 1;
 }
 
 .cbp-so-section p {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 300;
+	
 }
 
 /* Sides */
@@ -35,12 +34,13 @@
 	width: 50%;
 	float: left;
 	margin: 0;
-	padding: 3em 4%;
+	padding: 3em 2%;
 	overflow: hidden;
 	min-height: 12em;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
+	border: 1px solid hotpink;
 }
 
 /* Clear floats of children */
@@ -64,10 +64,14 @@
 
 .cbp-so-side-right img {
 	float: left;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .cbp-so-side-left img {
 	float: right;
+	width: 100%;
+	margin-top: 20px;
 }
 
 /* Initial state (hidden or anything else) */

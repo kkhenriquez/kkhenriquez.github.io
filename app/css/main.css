@@ -14,9 +14,7 @@ h3 small{
   letter-spacing: normal;
   font-size: 1.125em;
 }
-.container {
-    padding: 80px 90px;
-}
+
 .container-fluid{
   padding-top: 5px;
   padding-bottom: 5px

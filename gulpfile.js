@@ -44,28 +44,33 @@ gulp.task('useref', function() {
 	.pipe(useref())
 	.pipe(gulpIf('*.js', uglify()))
 	.pipe(gulpIf('*.css', cssnano()))
-	.pipe(gulp.dest('dist'))
+	.pipe(gulp.dest('home'))
 });
 
 gulp.task('images', function() {
-	return gulp.src('app/img/**/*.+(png|jpg|gif|svg')
+	return gulp.src('app/img/**/*.+(png|jpg|gif|svg)')
 	.pipe(cache(imagemin({
 		interlaced: true
 	})))
-	.pipe(gulp.dest('dist/img'))
+	.pipe(gulp.dest('home/img'))
 });
 
 gulp.task('fonts', function() {
 	return gulp.src('app/fonts/**/*')
-	.pipe(gulp.dest('dist/fonts'))
+	.pipe(gulp.dest('home/fonts'))
+});
+
+gulp.task('script', function() {
+	return gulp.src('app/js/modernizr.custom.js')
+	.pipe(gulp.dest('home/js'))
 });
 
 gulp.task('clean:dist', function() {
-	return del.sync('dist');
+	return del.sync('home');
 })
 
 gulp.task('build', function (callback) {
-	runSequence('clean:dist', ['sass', 'useref', 'images', 'fonts'], callback)
+	runSequence('clean:dist', ['sass', 'useref', 'images', 'fonts', 'script'], callback)
 });
 
 gulp.task('default', function (callback) {
