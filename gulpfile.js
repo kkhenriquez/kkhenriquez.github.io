@@ -70,7 +70,7 @@ gulp.task('clean:dist', function() {
 })
 
 gulp.task('build', function (callback) {
-	runSequence('clean:dist', ['sass', 'useref', 'images', 'fonts', 'script'], callback)
+	runSequence('clean:home', ['sass', 'images', 'fonts', 'script'], 'useref', callback)
 });
 
 gulp.task('default', function (callback) {
