@@ -1,3 +1,6 @@
+.brand-color {
+  color: #ff8b00; }
+
 .container {
   padding: 80px 0; }
   @media screen and (max-width: 768px) {
@@ -22,9 +25,59 @@
     .cbp-so-section {
       display: block; } }
 
+.cbp-so-side p a {
+  color: #ff8b00; }
+
 .big {
   font-size: 1.25em; }
 
 .intro {
   font-size: 1.5em;
   line-height: 2em; }
+
+#contact a {
+  color: #777;
+  text-decoration: none; }
+  #contact a:hover, #contact a:active {
+    color: #2d2d30;
+    text-decoration: none; }
+
+#contact ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #contact ul li {
+    display: inline;
+    margin: 0 5px 0; }
+    #contact ul li a {
+      color: #ff8b00; }
+      #contact ul li a:hover {
+        color: #fff; }
+
+.contact-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.button {
+  color: #ff8b00;
+  border: solid 2px #ff8b00;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 56px;
+  transition: all .3s ease-in-out; }
+  .button:hover {
+    border: solid 2px #ff8b00;
+    background: #ff8b00; }
+
+.social {
+  min-height: 60px;
+  min-width: 60px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block; }

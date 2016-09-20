@@ -92,15 +92,7 @@ footer a:hover {
   padding-bottom: 80px;
   color: #fafafa;
 }
-#contact a{
-  color: #777;
-  text-decoration: none;
-}
-#contact a:hover,
-#contact a:active{
-  color: #2d2d30;
-  text-decoration: none;
-}
+
 #contact p{
   color: #777;
 }
@@ -128,15 +120,7 @@ footer a:hover {
   background: url(../img/iconBblue.png) no-repeat;
   background-size: cover;
 }
-.social{
-  min-height: 60px;
-  min-width: 60px;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
 
-}
 .navbar-brand{
   position: relative;
   top: -7px;
@@ -151,7 +135,6 @@ footer a:hover {
   padding-top: 7.5%;
 }
 /*.brand-color {color: #ed561f;}*/
-.brand-color {color: rgb(255, 139, 0);}
 .naranja{color: #ff8b00;}
 .magenta{
   color: #ff00a7;

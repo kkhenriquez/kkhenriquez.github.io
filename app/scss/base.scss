@@ -1,3 +1,9 @@
+$brand-color: rgb(255, 139, 0);
+
+.brand-color {
+	color: $brand-color;
+}
+
 .container {
     padding: 80px 0;
     @media screen and (max-width: 768px) {
@@ -24,6 +30,14 @@
     }
 }
 
+.cbp-so-side {
+	p {
+		a {
+			color: $brand-color;
+		}
+	}
+}
+
 .big {
 	font-size: 1.25em;
 }
@@ -32,3 +46,73 @@
 	font-size: 1.5em;
 	line-height: 2em;
 }
+
+
+#contact {
+
+	a {
+		color: #777;
+  		text-decoration: none;
+
+  		&:hover, &:active {
+  			color: #2d2d30;
+  			text-decoration: none;
+  		}
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		li {
+		display: inline;
+  		margin: 0 5px 0;
+
+  		a {
+  			color: $brand-color;
+
+  			&:hover {
+  				color: #fff;
+  			}
+  		}
+	}
+	}
+
+	
+  
+}
+
+.contact-info {
+	display: flex;
+	align-items: center;
+
+}
+
+.button{
+  color: $brand-color;
+  border: solid 2px $brand-color;
+  border-radius: 50%;
+  display: inline-block;
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 56px;
+  -webkit-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+
+  &:hover {
+  	border: solid 2px $brand-color;
+  	background: $brand-color;
+  }
+}
+
+.social{
+  min-height: 60px;
+  min-width: 60px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+
