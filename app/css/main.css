@@ -48,6 +48,11 @@ h3 small{
     letter-spacing: 4px;
     opacity: 0.9;
 }
+  @media all and (max-width: 425px) {
+    .navbar {
+      display: none;
+    }
+  }
 .navbar-default.affix-top{
   background-color: transparent;
   transition: 0.9s;
@@ -86,7 +91,7 @@ footer a:hover {
 }
 #lead{
   background: url(../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg) no-repeat fixed;
-  background-size: 100%;
+  background-size: cover;
   background-origin: content;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -159,4 +164,29 @@ footer a:hover {
   float: none;
   margin-right: auto;
   margin-left: auto
+}
+h4 .usp {
+  margin-top: 20px;
+}
+@media all and (max-width: 425px) {
+  h4 .usp {
+    margin-top: 10px;
+
+  }
+  .feature {
+    margin-bottom: 20px;
+  }
+}
+
+.icons{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.spacing {
+  padding: 20px 0;
 }

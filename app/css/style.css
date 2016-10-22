@@ -33,6 +33,7 @@ body {
   font-family: 'Chivo', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  font-size: 100%;
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
