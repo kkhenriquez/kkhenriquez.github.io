@@ -23,8 +23,9 @@
   align-items: center; }
   @media screen and (max-width: 768px) {
     .cbp-so-section {
-      display: block;
-      margin-bottom: 0; } }
+      display: block; 
+      margin-bottom: 0;
+      } }
 
 .cbp-so-side p a {
   color: #ff8b00; }
