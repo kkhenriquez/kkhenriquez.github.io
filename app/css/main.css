@@ -105,7 +105,7 @@ footer a:hover {
   #lead {
     background: url(../img/fondo600.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center; 
     background-repeat: no-repeat;
     background-color: #2d2d30;
