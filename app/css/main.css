@@ -91,41 +91,30 @@ footer a:hover {
     text-decoration: none;
 }
 #lead{
-  background: url(../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg) no-repeat fixed;
+  background: url(../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg);
   background-size: cover;
-  background-position-x: 50%; 
-  background-origin: content;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
   padding-top: 100px;
   padding-bottom: 80px;
   color: #fafafa;
 }
 
+@media all and (max-width: 425px) {
+  #lead {
+    background: url(../img/fondo600.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-color: #2d2d30;
+  }
+  
+}
+
 #contact p{
   color: #777;
-}
-.facebook{
-  background: url(../img/iconF.png) no-repeat;
-  background-size: cover;
-}
-.facebook:hover{
-  background: url(../img/iconFblue.png) no-repeat;
-  background-size: cover;
-}
-.twitter{
-  background: url(../img/iconT.png) no-repeat;
-  background-size: cover;
-}
-.twitter:hover{
-  background: url(../img/iconTblue.png) no-repeat;
-  background-size: cover;
-}
-.behance{
-  background: url(../img/iconB.png) no-repeat;
-  background-size: cover;
-}
-.behance:hover{
-  background: url(../img/iconBblue.png) no-repeat;
-  background-size: cover;
 }
 
 .navbar-brand{
