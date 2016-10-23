@@ -9,6 +9,7 @@ h3 {
     letter-spacing: 10px;      
     font-size: 1.25em;
     color: #111;
+    line-height: 1.5;
 }
 h3 small{
   letter-spacing: normal;
@@ -92,6 +93,7 @@ footer a:hover {
 #lead{
   background: url(../img/tumblr_n1kr1g4m8k1qkndd2o1_1280.jpg) no-repeat fixed;
   background-size: cover;
+  background-position-x: 50%; 
   background-origin: content;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -178,7 +180,7 @@ h4 .usp {
   }
 }
 
-.icons{
+.utility{
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;

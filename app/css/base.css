@@ -23,7 +23,8 @@
   align-items: center; }
   @media screen and (max-width: 768px) {
     .cbp-so-section {
-      display: block; } }
+      display: block;
+      margin-bottom: 0; } }
 
 .cbp-so-side p a {
   color: #ff8b00; }
@@ -55,29 +56,23 @@
       #contact ul li a:hover {
         color: #fff; }
 
-.contact-info {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center; }
-
 .button {
   color: #ff8b00;
   border: solid 2px #ff8b00;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
-  font-size: 24px;
-  line-height: 56px;
+  font-size: 1.5em;
+  line-height: 1.8em;
   transition: all .3s ease-in-out; }
   .button:hover {
     border: solid 2px #ff8b00;
     background: #ff8b00; }
 
 .social {
-  min-height: 60px;
-  min-width: 60px;
+  height: 2em;
+  width: 2em;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
   display: inline-block; }
